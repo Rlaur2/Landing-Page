@@ -1,10 +1,14 @@
 .container {
     display: flex;
     justify-content: center;
+    flex-flow: column;
 }
 
 .block-1 {
     background-color: slateblue;
+}
+
+.block-1,.block-2,.block-3,.block-4{
     padding: 1vh 61.85vh 10vh;
 }
 
@@ -67,6 +71,49 @@ h1,h2 {
     font-weight: 700;
 }
 
-img {
+.awesome-image img {
     height: 225px;
+    border: yellow 3px solid;
 }
+
+/* The above is block-1 and below is block-2 */
+
+.bad-matchups {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 60px;
+    font-family: Arial;
+    font-size: 22px;
+}
+
+.portrait-1,.portrait-2,.portrait-3,.portrait-4 {
+    width: 160px;
+    height: 210px;
+    display: flex;
+    flex-flow: wrap;    
+}
+
+.portrait-1 img, 
+.portrait-2 img, 
+.portrait-3 img, 
+.portrait-4 img {
+    height:140px;
+    width: 160px;
+    border: #3882F6 3px solid;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.portraits {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    color:rgb(97, 106, 118);
+    font-size: 25px;
+}
+
+/* The above is block-2 and below is block-3 */
+
