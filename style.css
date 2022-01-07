@@ -117,3 +117,34 @@ h1,h2 {
 
 /* The above is block-2 and below is block-3 */
 
+.block-3 {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 0px;
+    height: 26vh;
+}
+
+.full-quote {
+    display: flex;
+    flex-flow: column;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #2d3744;
+}
+
+.credit {
+    font-weight: bolder;
+    font-size: 25px;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 54px;
+    margin-top: 10px;
+}
+
+/* The above is block-3 and below is block-4 */
+
