@@ -148,3 +148,57 @@ h1,h2 {
 
 /* The above is block-3 and below is block-4 */
 
+.block-4 {
+    display:flex;
+    padding-bottom: 0px;
+    height: 20vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: palevioletred;
+    color: darkblue;
+    gap: 240px;
+    border-radius: 10px;
+    height: 150px;
+    width: 100%;
+}
+
+.action-text {
+    display: flex;
+    flex-flow: column;
+    width: 350px;
+}
+
+.action-header {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.action-description {
+    font-size: 19px;
+}
+
+.action-button {
+    font-weight: 600;
+    font-size: 21px;
+    border: darkblue 2px solid;
+    border-radius: 5px;
+    padding: 3px 20px;
+}
+
+/* The above is block-4 and below is block-5 */
+
+.block-5 {
+    display: flex;
+    background-color: slateblue;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+    color: thistle;
+    font-size: 19px;
+}
