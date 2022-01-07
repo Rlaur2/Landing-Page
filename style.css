@@ -1,3 +1,8 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 .container {
     display: flex;
     justify-content: center;
@@ -9,7 +14,7 @@
 }
 
 .block-1,.block-2,.block-3,.block-4{
-    padding: 1vh 61.85vh 10vh;
+    padding: 1vh 61.85vh 10vh 61.85vh;
 }
 
 .header {
@@ -166,6 +171,7 @@ h1,h2 {
     border-radius: 10px;
     height: 150px;
     width: 100%;
+    flex: 1;
 }
 
 .action-text {
